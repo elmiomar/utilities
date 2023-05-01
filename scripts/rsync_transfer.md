@@ -18,6 +18,12 @@ Transfers a file or directory from the local machine to a remote server using rs
 * `remote_path`: Path to the directory on the remote server where the file or directory will be placed (default: `/path/on/server`).
 * `private_key_path`: Path to the private SSH key file on the local machine (default: `/path/to/private/key`).
 
+Before using the script, you need to set the execute permission on the file using the following command:
+
+```sh
+chmod +x rsync_transfer.sh
+```
+
 ## Examples
 
 Transfer a file:
